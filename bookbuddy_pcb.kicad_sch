@@ -1,0 +1,277 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5c9eb70e-53a3-4f57-8f37-8853f9cac53c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 97.79 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b556c16-021a-4287-8bf1-ea270963b688")
+	)
+	(wire
+		(pts
+			(xy 97.79 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83aabc01-9ba3-4b1f-9463-a7a3a4cc2404")
+	)
+	(wire
+		(pts
+			(xy 177.8 93.98) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae1d9dc5-4c26-4743-b031-66093f93533d")
+	)
+	(wire
+		(pts
+			(xy 177.8 91.44) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf8802e-18f9-4be6-8f80-4a1300b08264")
+	)
+	(wire
+		(pts
+			(xy 177.8 101.6) (xy 198.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb637c95-cc96-4906-a99d-80f2d75cc47b")
+	)
+	(sheet
+		(at 123.19 77.47)
+		(size 54.61 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e3446f1-a95f-4913-8bb5-b3ce5accdac4")
+		(property "Sheetname" "mcu"
+			(at 123.19 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 123.19 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "958c97d4-feeb-48a5-b88b-ead72bf7149a")
+		)
+		(pin "SDA" bidirectional
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d874b9f6-427f-4ab3-84f7-f234a9b3c2f3")
+		)
+		(pin "TRIG" output
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8b29dc0-9c2c-407b-952d-4fc0cca720f4")
+		)
+		(pin "CHG_STAT" input
+			(at 123.19 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fceac894-cb2b-4431-8b81-825a10522174")
+		)
+		(pin "BATT_V" input
+			(at 123.19 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c6b3852-3b2d-46b0-bfc2-75d44b4f99ac")
+		)
+		(instances
+			(project "bookbuddy_pcb"
+				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 83.82)
+		(size 45.72 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6dc440b8-7071-4cc1-81fc-db5797234b2d")
+		(property "Sheetname" "hall_effect"
+			(at 198.12 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall_effect.kicad_sch"
+			(at 198.12 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TRIG" input
+			(at 198.12 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab7074c1-4597-4287-a737-68e6be63d3e3")
+		)
+		(pin "SDA" bidirectional
+			(at 198.12 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1851d46-5e18-4135-806a-d430a6871700")
+		)
+		(pin "SCL" bidirectional
+			(at 198.12 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae47f1ac-c5a6-4b80-b5af-aecc6cbef6f4")
+		)
+		(instances
+			(project "bookbuddy_pcb"
+				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 85.09)
+		(size 45.72 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9b17dec-f84f-4841-bdb5-cbe0cc549f61")
+		(property "Sheetname" "charging"
+			(at 52.07 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "charging.kicad_sch"
+			(at 52.07 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CHG_STAT" output
+			(at 97.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4ed9091-a7d9-427d-9162-024aea14ecde")
+		)
+		(pin "BATT_V" output
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f75cae0-25cf-4a2c-b357-203ec281a3fb")
+		)
+		(instances
+			(project "bookbuddy_pcb"
+				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
