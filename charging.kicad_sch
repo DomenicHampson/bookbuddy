@@ -2888,6 +2888,12 @@
 		(uuid "b94f2c9c-98c6-4987-927b-b383542919b9")
 	)
 	(junction
+		(at 66.04 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bebbbc44-d056-4e3c-a3b2-b87a0fbbd6e7")
+	)
+	(junction
 		(at 59.69 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6488,6 +6494,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5af736c-3b24-4960-9bb6-c34be0cbe9fb")
+		(property "Reference" "TP7"
+			(at 71.12 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 71.12 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "993e9449-3564-492c-a202-730aedb10ebe")
+		)
+		(instances
+			(project ""
+				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c/b9b17dec-f84f-4841-bdb5-cbe0cc549f61"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MIC5365-3.3YC5-TR:MIC5365-3.3YC5-TR")
 		(at 184.15 77.47 0)
 		(unit 1)
@@ -6741,6 +6814,71 @@
 			(project "bookbuddy_pcb"
 				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c/b9b17dec-f84f-4841-bdb5-cbe0cc549f61"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8fced99-ec96-43dc-abb7-dcdbd3ecdd82")
+		(property "Reference" "TP8"
+			(at 28.448 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT"
+			(at 28.448 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4bcfeeea-c4b2-487a-9e88-7b862d188383")
+		)
+		(instances
+			(project "bookbuddy_pcb"
+				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c/b9b17dec-f84f-4841-bdb5-cbe0cc549f61"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
