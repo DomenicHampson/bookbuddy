@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "bookbuddy")(type "KiCad")(uri "C:/Users/domen/Downloads/bookbuddy.pretty")(options "")(descr ""))
+  (lib (name "bookbuddy")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy.pretty")(options "")(descr ""))
 )
