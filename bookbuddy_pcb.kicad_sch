@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 97.79 97.79) (xy 123.19 97.79)
+			(xy 100.33 97.79) (xy 123.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 95.25) (xy 123.19 95.25)
+			(xy 100.33 95.25) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -212,7 +212,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 85.09)
+		(at 54.61 85.09)
 		(size 45.72 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -224,7 +224,7 @@
 		)
 		(uuid "b9b17dec-f84f-4841-bdb5-cbe0cc549f61")
 		(property "Sheetname" "charging"
-			(at 52.07 84.3784 0)
+			(at 54.61 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -233,7 +233,7 @@
 			)
 		)
 		(property "Sheetfile" "charging.kicad_sch"
-			(at 52.07 108.5346 0)
+			(at 54.61 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +242,7 @@
 			)
 		)
 		(pin "CHG_STAT" output
-			(at 97.79 95.25 0)
+			(at 100.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +252,7 @@
 			(uuid "e4ed9091-a7d9-427d-9162-024aea14ecde")
 		)
 		(pin "BATT_V" output
-			(at 97.79 97.79 0)
+			(at 100.33 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
