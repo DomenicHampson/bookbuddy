@@ -9,4 +9,5 @@
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/MMC5983MA.kicad_sym")(options "")(descr ""))
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/Espressif.kicad_sym")(options "")(descr ""))
   (lib (name "MLX90395KDC-BBA-101-RE")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/MLX90395KDC-BBA-101-RE.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66200DRLR")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/LM66200DRLR.kicad_sym")(options "")(descr ""))
 )
