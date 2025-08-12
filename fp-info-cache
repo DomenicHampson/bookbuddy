@@ -1,4 +1,4 @@
-23657873896166378
+23671908442782075
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96593,6 +96593,13 @@ AMPHENOL_10164359-00011LF
 10
 10
 bookbuddy
+CONN_SM04B-SRSS-TB_JST
+
+
+0
+6
+6
+bookbuddy
 CUS-12B
 <b>CUS-12B</b><br>
 
@@ -96606,6 +96613,27 @@ GCT_BC075-04-A-L-A_REVC2
 0
 4
 4
+bookbuddy
+HARWIN_M20-8890445R
+
+
+0
+4
+4
+bookbuddy
+IN-S63TBS5R5G5B_INO
+
+IN-S63TBS5R5G5B 
+0
+4
+4
+bookbuddy
+JST_S2B-PH-K-S_LF__SN_
+
+
+0
+2
+2
 bookbuddy
 LED_IN-S126TASRGB
 
@@ -96621,6 +96649,20 @@ QFN50P300X300X100-17N
 17
 17
 bookbuddy
+SOIC127P600X172-8N
+
+
+0
+8
+8
+bookbuddy
+SOT8
+<b>Small Outline Transistor</b>
+
+0
+8
+8
+bookbuddy
 SOT65P210X110-5N
 
 
@@ -96634,6 +96676,20 @@ SOT96P240X100-3N
 0
 3
 3
+bookbuddy
+SW_SLW-913535-2A-RA-D
+
+
+0
+3
+3
+bookbuddy
+SW_SLW-66527511-SMT-TR
+
+
+0
+7
+7
 bookbuddy
 SW_TL3315NF250Q
 

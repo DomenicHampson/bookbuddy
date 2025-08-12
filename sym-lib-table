@@ -10,4 +10,6 @@
   (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/Espressif.kicad_sym")(options "")(descr ""))
   (lib (name "MLX90395KDC-BBA-101-RE")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/MLX90395KDC-BBA-101-RE.kicad_sym")(options "")(descr ""))
   (lib (name "LM66200DRLR")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/LM66200DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "M20-8890445R")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/M20-8890445R.kicad_sym")(options "")(descr ""))
+  (lib (name "IN_S63TBS5R5G5B")(type "KiCad")(uri "${KIPRJMOD}/bookbuddy_symbols/2025-08-12_00-20-01.kicad_sym")(options "")(descr ""))
 )
