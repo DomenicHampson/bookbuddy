@@ -9,6 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(1 "In1.Cu" power)
+		(2 "In2.Cu" power)
 		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
@@ -39,6 +41,67 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -128,7 +191,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "128eac25-2f43-425a-980e-6c6977b5bff2")
-		(at 103.5 99.5)
+		(at 104.975 99.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "GND"
@@ -301,7 +364,7 @@
 	(footprint "bookbuddy:SW_SLW-66527511-SMT-TR"
 		(layer "F.Cu")
 		(uuid "23fdbb8a-6b3c-40ad-b79c-8f6bf06125b5")
-		(at 115 99)
+		(at 114.25 99)
 		(property "Reference" "SW3"
 			(at -1.325 -5.875 0)
 			(layer "F.SilkS")
@@ -674,7 +737,7 @@
 	(footprint "bookbuddy:XCVR_ESP32-C3-MINI-1-N4"
 		(layer "F.Cu")
 		(uuid "26454155-32e2-44ca-89d3-bbde73338b89")
-		(at 158.725 92.3 -90)
+		(at 158.75 92.45 -90)
 		(property "Reference" "U1"
 			(at -3.675 -9.635 90)
 			(layer "F.SilkS")
@@ -1521,7 +1584,7 @@
 			)
 			(polygon
 				(pts
-					(xy 167.025 85.7) (xy 167.025 98.9) (xy 161.625 98.9) (xy 161.625 85.7)
+					(xy 167.05 85.85) (xy 167.05 99.05) (xy 161.65 99.05) (xy 161.65 85.85)
 				)
 			)
 		)
@@ -1549,7 +1612,7 @@
 			)
 			(polygon
 				(pts
-					(xy 167.025 85.7) (xy 167.025 98.9) (xy 161.625 98.9) (xy 161.625 85.7)
+					(xy 167.05 85.85) (xy 167.05 99.05) (xy 161.65 99.05) (xy 161.65 85.85)
 				)
 			)
 		)
@@ -1577,7 +1640,7 @@
 			)
 			(polygon
 				(pts
-					(xy 167.025 85.7) (xy 167.025 98.9) (xy 161.625 98.9) (xy 161.625 85.7)
+					(xy 167.05 85.85) (xy 167.05 99.05) (xy 161.65 99.05) (xy 161.65 85.85)
 				)
 			)
 		)
@@ -2484,7 +2547,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "5ec9b16b-c8af-41b5-ac6f-0e281248023b")
-		(at 100.5 87 90)
+		(at 101.975 87 90)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "VBUS"
@@ -2657,7 +2720,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "61425949-1189-4d78-9d9c-428c3f59bb81")
-		(at 100.5 99.5)
+		(at 101.975 99.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "3v3"
@@ -2830,7 +2893,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "6f920844-2283-4dcd-b900-b454b69d3eb3")
-		(at 106.5 87 90)
+		(at 107.975 87 90)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "SDA"
@@ -3822,7 +3885,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c3547703-f7de-41be-920c-0f7f754bfc60")
-		(at 102.025 96.865)
+		(at 103.5 96.865)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -4036,7 +4099,7 @@
 	(footprint "bookbuddy:SOIC127P600X172-8N"
 		(layer "F.Cu")
 		(uuid "dd64ee3c-ecfd-4e66-9f9f-7722f8f03827")
-		(at 102.025 93.365 180)
+		(at 103.5 93.365 180)
 		(property "Reference" "U2"
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
@@ -4462,7 +4525,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "df00ea66-ba88-44b7-83a3-215c71fedb2c")
-		(at 103.5 87 90)
+		(at 104.975 87 90)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "BATT"
@@ -4635,7 +4698,7 @@
 	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
 		(layer "F.Cu")
 		(uuid "e70e3382-e13b-457d-bd44-82576730ea59")
-		(at 106.5 99.5 90)
+		(at 107.975 99.5 90)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "SCL"
@@ -13196,8 +13259,8 @@
 		(uuid "3d338414-a650-4a1f-94b2-ad4da1b0de0a")
 	)
 	(gr_rect
-		(start 95.5 85.5)
-		(end 97.5 101)
+		(start 97 85.5)
+		(end 99 101)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13207,8 +13270,8 @@
 		(uuid "5c52db01-6a5a-415b-b695-26b4ef2afb37")
 	)
 	(gr_rect
-		(start 97.46 88.365)
-		(end 106.845 97.965)
+		(start 98.935 88.365)
+		(end 108.32 97.965)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -13229,7 +13292,7 @@
 		(uuid "d300c2ed-73f8-4319-a657-881958b3b63e")
 	)
 	(gr_rect
-		(start 95.435 85.5)
+		(start 96.935 85.5)
 		(end 169.435 101)
 		(stroke
 			(width 0.05)
@@ -13240,13 +13303,13 @@
 		(uuid "c4ef67e1-b5fe-4416-b568-2952bf3ca48d")
 	)
 	(gr_text "Domenic Hampson\nAug-11-2025\nBook Buddy Rev A"
-		(at 103.5 87.5 -0)
+		(at 109 89.5 0)
 		(layer "B.SilkS")
 		(uuid "6d25c811-1089-4564-9308-3279a631985d")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.075)
+				(size 0.8 0.8)
+				(thickness 0.15)
 				(bold yes)
 			)
 			(justify left bottom mirror)
@@ -13299,8 +13362,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "70mm\n"
-		(at 134 84.3625 0)
+	(gr_text "72.5mm\n"
+		(at 132 84.3625 0)
 		(layer "Dwgs.User")
 		(uuid "c072e2e5-8244-459b-b3be-b661991b6169")
 		(effects
@@ -13337,7 +13400,7 @@
 		)
 	)
 	(gr_text "Keep out zone"
-		(at 100.025 89.865 0)
+		(at 101.5 89.865 0)
 		(layer "User.1")
 		(uuid "1ffe211e-4a79-4a20-9107-e20e0595dcfb")
 		(effects
