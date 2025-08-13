@@ -7008,7 +7008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IN-S63TBS5R5G5B_INO"
+		(property "Footprint" "bookbuddy:IN-S63TBS5R5G5B_INO"
 			(at 259.08 124.46 0)
 			(effects
 				(font

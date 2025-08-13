@@ -1,0 +1,32 @@
+(footprint "Fuse_SCHURTER_UMZ250" (version 20240201) (generator pcbnew)
+  (descr "SCHURTER UMZ 250 SMD fuse with clip; land pattern per datasheet")
+  (tags "SCHURTER UMZ250 UMC250 UMT250 fuse clip")
+  (attr smd)
+
+  (fp_text reference "F?" (at 0 -3.8) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text value "UMZ_250_0.5A" (at 0 3.8) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15))))
+  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (effects (font (size 0.9 0.9) (thickness 0.12))))
+
+  # Courtyard (suggested ~13.5 x 6.0 mm)
+  (fp_line (start -6.75 -3.0) (end 6.75 -3.0) (layer "F.CrtYd") (width 0.05))
+  (fp_line (start 6.75 -3.0) (end 6.75 3.0) (layer "F.CrtYd") (width 0.05))
+  (fp_line (start 6.75 3.0) (end -6.75 3.0) (layer "F.CrtYd") (width 0.05))
+  (fp_line (start -6.75 3.0) (end -6.75 -3.0) (layer "F.CrtYd") (width 0.05))
+
+  # Silk (short lines at ends)
+  (fp_line (start -5.9 -2.6) (end -5.9 2.6) (layer "F.SilkS") (width 0.12))
+  (fp_line (start 5.9 -2.6) (end 5.9 2.6) (layer "F.SilkS") (width 0.12))
+
+  # Fab outline (body ~11.3 x 4.2 mm)
+  (fp_line (start -5.65 -2.1) (end 5.65 -2.1) (layer "F.Fab") (width 0.1))
+  (fp_line (start 5.65 -2.1) (end 5.65 2.1) (layer "F.Fab") (width 0.1))
+  (fp_line (start 5.65 2.1) (end -5.65 2.1) (layer "F.Fab") (width 0.1))
+  (fp_line (start -5.65 2.1) (end -5.65 -2.1) (layer "F.Fab") (width 0.1))
+
+  # Pads (size 3.0 x 4.75 mm, center spacing 8.5 mm => +/-4.25 mm)
+  (pad "1" smd rect (at -4.25 0) (size 3 4.75) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (pad "2" smd rect (at 4.25 0) (size 3 4.75) (layers "F.Cu" "F.Paste" "F.Mask"))
+)
