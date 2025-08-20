@@ -4212,16 +4212,6 @@
 		)
 		(uuid "c2213482-05c7-41d1-9f49-e79a5787c0a5")
 	)
-	(text "Potential option: use the load switch instead of the switch here.\nHave a tiny button control the en pin to toggle power to the\nsystem. This button can now fit next to the esp for easy user access.\nIf the system or usb draws to much power it will cut off protecting.\nI would need a way to keep usb power connected though.\n"
-		(exclude_from_sim no)
-		(at 154.686 43.688 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c81171cb-6a2e-4c0e-80ec-b511746c74bd")
-	)
 	(text "LiPo Charger\n"
 		(exclude_from_sim no)
 		(at 238.76 97.79 0)
@@ -5037,7 +5027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4167f673-7951-41f1-91f3-15687233d6c2")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 83.82 68.2624 90)
 			(effects
 				(font
@@ -5091,7 +5081,7 @@
 		(instances
 			(project "bookbuddy_pcb"
 				(path "/5c9eb70e-53a3-4f57-8f37-8853f9cac53c/b9b17dec-f84f-4841-bdb5-cbe0cc549f61"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
